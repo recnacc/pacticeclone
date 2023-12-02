@@ -1,0 +1,160 @@
+
+* {
+    margin:  0;
+    padding:  0 ;
+    box-sizing:  border-box;
+    font-family:  'Roboto Condensed';
+}
+
+html, body {
+width:  100%;
+font-size: 16px;
+height: auto;
+overflow-x: hidden;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    
+    
+}
+
+#nav {
+    height: 4em;
+    width:  100%;
+    background-color :#FFF7E5;
+    display: flex;
+   align-items: center;  
+   justify-content: space-between;  
+}
+
+ul  {
+    list-style-type: none;
+    display: flex;
+    gap: 3.2vw;
+    padding-left: 5vw;
+    padding-right: 3vw;
+    font-size: 1em;
+   font-weight: 500;
+   color: #14433D;
+   align-items: center;
+   opacity: 87%;
+}
+
+ul button {
+background-color: #14433D;
+padding: 12px 39px;
+font-weight: 600;
+color: white;
+border-radius: 30px;
+border: none;
+cursor: pointer;
+font-size: 1vw;
+opacity: 100%;
+
+
+}
+
+#nav .logocontainer {
+    padding-top: 2vw; 
+    padding-right: 4.5vw; 
+    position: relative;
+}
+
+img.logo {
+    width: 80px; 
+    height: auto; 
+
+}
+
+.landingpage {
+    box-sizing: border-box;
+    min-height: calc(100vh - 70px);
+    width: 100%;
+    background-color:#FFFFFF ;
+    display: flex;
+}
+
+.landleft {
+    width: 50%;
+display: flex;
+    
+      
+}
+
+#contentmain {
+
+ margin: auto;
+  text-align: center;
+  padding-top: 30%;
+  
+}
+
+.center-container {
+    padding-left: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.landleft h1 {
+    font-family:pacifico;
+    font-size: 3em;
+    font-weight: 500;
+
+  line-height: 1em;
+
+    
+}
+.landleft  p {
+    margin-bottom: 3%;
+    margin-top: 7%;
+}
+
+.landleft  button{
+    background-color: #14433D;
+padding: 12px 39px;
+font-weight: 600;
+color: white;
+border-radius: 30px;
+border: none;
+cursor: pointer;
+font-size: 1em;
+opacity: 100%;
+
+}
+
+
+.landright {
+    width: 50%;
+    min-height: calc(100vh - 70px);
+    background-color: green;
+    overflow: hidden;
+}
+
+.image-section {
+    height: 100%; /* Set the height of the section, adjust as needed */
+    overflow: hidden; /* Ensure the image doesn't overflow */
+  }
+  
+.image-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://drinkolipop.com/cdn/shop/files/BFCM-Desktop-updated.png?v=1700595528');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+
+
+
+
+
+    
